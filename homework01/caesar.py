@@ -16,6 +16,7 @@ def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
             encrypted += str(symbol)
         else:
             encrypted += symbol
+            
     return encrypted
 
 
